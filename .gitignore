@@ -1,8 +1,8 @@
 # ignore idea out
-/out
+/out/
 
 #ignore idea .idea
-/.idea
+/.idea/
 
-#ignore idea Java.iml
-Java.iml
+#ignore .class files
+*.class
