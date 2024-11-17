@@ -1,0 +1,8 @@
+# ignore idea out
+/out
+
+#ignore idea .idea
+/.idea
+
+#ignore idea Java.iml
+Java.iml
