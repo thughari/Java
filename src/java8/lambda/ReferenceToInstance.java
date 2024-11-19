@@ -18,5 +18,8 @@ public class ReferenceToInstance {
         //add method
         AddInterface addInterface = referenceToInstance::add;
         System.out.println(addInterface.add(10,20));
+        //another representation
+        Sayable sayable = new ReferenceToInstance()::say;
+        sayable.say();
     }
 }
